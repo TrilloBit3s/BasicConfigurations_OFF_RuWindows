@@ -1,0 +1,49 @@
+sites nao abrem no pc
+
+1 - Abra o cmd como Administrador
+2 - ipconfig /flushdns
+3 - ipconfig /registerdns
+
+Se esses passoa nao funcionarem
+
+ 1 - Vá a conexão de Internet e clique com o botão direito
+ 2 - Abrir Configurações de Rede e Internet
+ 3 - Em Configurações avançadas de Rede abra Alterar opções de adaptador
+ 4 - aqui abriu as conexões de Rede
+ 5 - clique com o botão direito e va para Propoiedades
+ 6 - ache o "Protocolo IP Versão 4 (TCP/IPv4)" Clique nele e Propriedades
+ 7 - vamos para a parte de baixo e habilite "Usar os seguintes endereços de servidores DNS"
+ 8 - em Servidor DNS preferencial: digite 1.1.1.1
+ 9 - em Servidor DNS alternativo:  digite 1.0.0.1
+ 10- aperte ok fechar e feche todas as pastas abertas
+
+	Daqui em diante ja tem que estar funcionando.
+
+
+Porém se o erro for no Chrome use: "chrome://net-internals/#dns" no navegador
+selecione DNS no canto esquerdo e aperte Clear host cache
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
