@@ -1,4 +1,4 @@
-sites nao abrem no pc
+* sites nao abrem no Navegador Google chrome
 
 1 - Abra o cmd como Administrador
 2 - ipconfig /flushdns
@@ -10,6 +10,13 @@ Se esses passoa nao funcionarem
  2 - Abrir Configurações de Rede e Internet
  3 - Em Configurações avançadas de Rede abra Alterar opções de adaptador
  4 - aqui abriu as conexões de Rede
+
+   Ou no passo 1 abra o CMD
+	ctrl+R = abrir executar, e digite 
+		control /name Microsoft.NetworkAndSharingCenter
+	depois
+		ncpa.cpl
+  	
  5 - clique com o botão direito e va para Propoiedades
  6 - ache o "Protocolo IP Versão 4 (TCP/IPv4)" Clique nele e Propriedades
  7 - vamos para a parte de baixo e habilite "Usar os seguintes endereços de servidores DNS"
@@ -20,30 +27,13 @@ Se esses passoa nao funcionarem
 	Daqui em diante ja tem que estar funcionando.
 
 
-Porém se o erro for no Chrome use: "chrome://net-internals/#dns" no navegador
+Porém se o erro for no Chrome use: "chrome://net-internals/#dns" ou "chrome://net-internals" no navegador
 selecione DNS no canto esquerdo e aperte Clear host cache
 
+___________________________________________________________________________________________________________
 
+* Sites nao abrem no Navegador Google chrome No Firefox
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	about:preferences#network
+		ou
+	about:networking
